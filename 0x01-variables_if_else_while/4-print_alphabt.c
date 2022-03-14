@@ -7,21 +7,19 @@
 int main(void)
 
 {
-	char l;
+char l;
 
-	for (l = 'a'; l <= 'z'; l++)
-	{
-	if (l == 'e')
-	continue;
-	else if (l == 'q')
-	continue;
-        
-	putchar(l);
-	}
+for (l = 'a'; l <= 'z'; l++)
+{
+if (l == 'e')
+continue;
+else if (l == 'q')
 
-	putchar('\n');
-
-	return (0);
+continue;
+putchar(l);
 }
 
-	
+putchar('\n');
+
+return (0);
+}
