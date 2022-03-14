@@ -1,11 +1,16 @@
 #include <stdio.h>
-/* this code write small letter alphabet */
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-int main()
+int main(void)
 {
 	char A;
-	for (A='a'; A<='z'; A++)
+
+	for (A ='a'; A <= 'z'; A++)
 		putchar(A);
 	putchar('\n');
-	return(0);
+	return (0);
 }

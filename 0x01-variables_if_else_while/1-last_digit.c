@@ -2,26 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main generate random number n
- * then determine if n=0,n>5,n<5
- * return 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
 int n;
-int l= n % 10;
+int l;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
+l = n % 10;
 
-if (n % 10 > 5)
+if (l > 5)
 {
 printf("last digit of %i is %i and greater than 5\n", n, l);
 }
-else if (n % 10 == 0)
+else if (l == 0)
 {
 printf("last  digit of %i is %i and is 0\n", n, l);
 }
