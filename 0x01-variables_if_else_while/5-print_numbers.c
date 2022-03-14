@@ -4,13 +4,16 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char A;
+int d;
 
-	for (A = 'a'; A <= 'z'; A++)
-		putchar(A);
-	putchar('\n');
-	return (0);
+for (d = 0 ; d < 10; d++)
+{
+	printf("%d" , d);
+}
+
+printf("\n");
+
+return (0);
 }
