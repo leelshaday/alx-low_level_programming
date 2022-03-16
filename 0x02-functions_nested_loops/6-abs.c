@@ -2,13 +2,15 @@
 #include <stdio.h>
 
 /**
- * _abs - calculate the absolute value of the number from zero.
+ * _abs - value absolute
+ *
  * @i: the integer to be converted.
- * Return: absolute value of the input number.
+ * Return:Always 0.
  */
 
 int_abs(int i)
 {
+
 if (i < 0)
 {
 return (i * (-1));
@@ -23,4 +25,5 @@ else
 {
 return (i);
 }
+
 }

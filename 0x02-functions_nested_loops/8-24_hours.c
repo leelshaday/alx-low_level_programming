@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * jack_bauer - print time table in this format: HH:MM
+ * jack_bauer - print time table
+ *
  * Return: Always 0.
  */
 void jack_bauer(void)
+
 {
-int h, m;
+int h;
+int m;
 
 for (h = 0; h < 23; h++)
 {
