@@ -1,15 +1,16 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * jack_bauer - print time table in this format: HH:MM
- * Return: the sum of two numbers.
+ * Return: Always 0.
  */
 void jack_bauer(void)
 {
 int h, m;
 
-for (h = 0; h < 24; h++)
+for (h = 0; h < 23; h++)
 {
-for (n = 0; m < 60; m++)
+for (m = 0; m < 59; m++)
 {
 _putchar((h / 10) + '0');
 _putchar((h % 10) + '0');
