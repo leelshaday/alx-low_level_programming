@@ -1,4 +1,6 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
  * _abs - calculate the absolute value of the number from zero.
  * @i: the integer to be converted.
@@ -7,6 +9,17 @@
 int_abs(int i)
 {
 if (i < 0)
-i = i * -1;
-return (i);
+{
+return (i * (-1));
+}
+
+else if (n == 0)
+{
+return(0);
+}
+
+else
+{
+return (n);
+}
 }
