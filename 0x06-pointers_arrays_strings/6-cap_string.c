@@ -8,9 +8,6 @@ int separator(char c)
 {
 switch (c)
 {
-case ' ':
-case '\t':
-case '\n':
 case ',':
 case ';':
 case '.':
